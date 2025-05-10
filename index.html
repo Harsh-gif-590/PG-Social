@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <div class="nav">
+    <nav>
         <div class="container">
             <h2>PG Social</h2>
             <div class="search-bar">
@@ -20,52 +20,113 @@
                 <input type="text" class="type" placeholder="search here for post">
             </div>
             <div class="create">
-                <label class="btn btn-primary" for="create-post">Create</label>
-                <div class="profile-nav">
-                    <img src="/images/profile-1.jpg" alt="">
+                <label for="create-post" class="btn btn-primary">Create</label>
+                <div class="profile-photo">
+                    <img src="/images/profile-1.jpg" alt="images">
                 </div>
             </div>
         </div>
-    </div>
-    <!-- ********************************* MAIN **************************** -->
+    </nav>
+
+    <!--------------------------MAIN  ------------------------------->
     <main>
-        <div class="main-container">
+        <div class="container">
+            <!---------- LEFT  ---------->
             <div class="left">
-                <a class="profile">
-                    <div class="profile-photo">
-                        <img src="/images/profile-1.jpg" alt="">
-                    </div>
-                    <div class="handle">
-                        <h4>Payal</h4>
-                        <p class="text-muted">@payal</p>
-                    </div>
-                </a>
+                <div class="profile-photo">
+                    <img src="/images/profile-1.jpg">
+                </div>
+                <div class="handle">
+                    <h4>Hemant Selkar</h4>
+                    <p class="text-muted">
+                        @hemant
+                    </p>
+                </div>
+                <!------------- SIDERBAR ----------->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="fa-solid fa-house"></i></span>
+                        <h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa-solid fa-compass"></i></span>
+                        <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notification">
+                        <span><i class="fa-solid fa-bell"><small class="notification-count">9+</small></i></span>
+                        <h3>Notification</h3>
+                        <!------------------------ NOTIFICATION POPUP ------------->
+                        <div class="notification-popup">
+                            <div>
+                                <dvi class="profile-photo">
+                                    <img src="/images/profile-2.jpg" alt="">
+                                </dvi>
+                                <div class="notification-body">
+                                    <b>Harshal Sahare</b>Accpeted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <dvi class="profile-photo">
+                                    <img src="/images/profile-3.jpg" alt="">
+                                </dvi>
+                                <div class="notification-body">
+                                    <b>Krishul Kurve</b>Accpeted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <dvi class="profile-photo">
+                                    <img src="/images/profile-4.jpg" alt="">
+                                </dvi>
+                                <div class="notification-body">
+                                    <b>Payal Gadge</b>Like your story
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <dvi class="profile-photo">
+                                    <img src="/images/profile-5.jpg" alt="">
+                                </dvi>
+                                <div class="notification-body">
+                                    <b>Harshal Sahare</b>Accpeted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="menu-item" id="message-notification">
+                        <span><i class="fa-solid fa-envelope"><small class="notification-count">5</small></i></span>
+                        <h3>Message</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa-solid fa-bookmark"></i></span>
+                        <h3>Bookmark</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="fa-solid fa-chart-line"></i></span>
+                        <h3>Analyatics</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-palette"></i></span>
+                        <h3>Them</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-setting"></i></span>
+                        <h3>Settling</h3>
+                    </a>
+                </div>
+                <!-------- END OF SIDERBAR -------->
+                <label for="create-post" class="btn btn-primary">Create Post</label>
             </div>
-            <div class="sidebar">
-                <a class="menu-item">
-                    <span><i class="fas fa-home"></i></span>
-                    <h3>Home</h3>
-                    <span><i class="fas fa-search"></i></span>
-                    <h3>Explore</h3>
-                    <span><i class="fas fa-bell"></i> </span>
-                    <h3>Notification</h3>
-                    <span><i class="fas fa-message"></i></span>
-                    <h3>Messages</h3>
-                    <span><i class="fas fa-book"></i></span>
-                    <h3>Bookmarks</h3>
-                    <span><i class="fas fa-home"></i></span>
-                    <h3>Anaylatics</h3>
-                    <span><i class="fas fa-"></i></span>
-                    <h3>Theme</h3>
-                    <span><i class="fas fa-setting"></i></span>
-                    <h3>Settings</h3>
-                </a>
+            <!-----------------END OF LEFT ------------------->
+            <!----------  MIDDLE  ---------->
+            <div class="middle">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum eaque eveniet incidunt cupiditate aliquid harum animi eos iste maiores facilis quisquam, dicta aspernatur dolores. Ipsa sequi repellat laboriosam dignissimos, maiores animi iusto dolorum molestias non culpa sit provident, accusantium vel illo voluptates quam expedita dolorem?
             </div>
-            <div class="middel">
-                mid box
-            </div>
+            <!---------- RIGHT  ---------->
             <div class="right">
-                right box
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ipsam beatae doloribus iure at. Magni quod minima laboriosam! Eveniet sit officia ducimus! Voluptas facilis sunt sed rerum est natus non autem fuga, omnis quia!
             </div>
         </div>
     </main>
